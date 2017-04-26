@@ -1,10 +1,3 @@
-//
-//  swift-01.swift
-//  
-//
-//  Created by Constantine Shatalov on 3/25/17.
-//
-//
 
 //  #0: Variables, Tuples, Type Alias, Error Handling, Assertions, Strings
 
@@ -25,7 +18,7 @@ let hexadecimalWithExponent = 0xFp2  // F * 2^2
 let extraFormattingZeros = 005
 let extraFormattingUnderscores = 1_000_000_000
 let convertedToDouble = Double(1)
-let piToInt = Int(M_PI)
+let piToFlaot = Float(M_PI)
 
 // Tuples
 let errorCode: (errorNumber: Int, errorDescription: String) = (404, "Not Found")
@@ -106,7 +99,7 @@ print(catString[catString.startIndex])
 print(catString[catString.index(before: catString.endIndex)])
 print(catString[catString.index(catString.startIndex, offsetBy: 3)])
 
-// Loop through Strings' Characters' Indexes
+// Loop through Strings 'Characters' Indexes
 for index in catString.characters.indices {
     print(catString[index])
 }

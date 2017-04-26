@@ -1,10 +1,3 @@
-//
-//  swift-02.swift
-//  
-//
-//  Created by Constantine Shatalov on 3/25/17.
-//
-//
 
 //  #1: Collections, Tuples, Closures
 
